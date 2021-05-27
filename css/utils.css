@@ -6,6 +6,8 @@
 
 .flex {
     display: flex;
+    justify-content: space-between;
+    margin: 1rem;
 }
 
 /* font */
@@ -28,4 +30,13 @@
 
 .x-large {
     font-size: 4rem;
+}
+
+.my-1 {
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
 }

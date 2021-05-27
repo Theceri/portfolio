@@ -13,7 +13,6 @@ body {
 
 .btn-red{
     background-color: red;
-    color: white;
     padding: 14px;
     font-size: 20px;
 }
@@ -23,9 +22,6 @@ body {
     font-family: monospace;
 }
 
-span {
-    color: red;
-}
 
 ul {
     list-style: none;
@@ -37,15 +33,21 @@ a {
 }
 
 .navbar {
-    background: brown;
+    /* background: brown; */
     height: 50px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
+}
+
+.navbar h3 {
+    font-size: 2rem;
 }
 
 li {
     margin: 0 20px;
+    font-weight: 600;
 }
 
 .grid-container {
@@ -56,11 +58,57 @@ li {
 .main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 90vh;
+    grid-template-rows: 85vh;
+    padding-top: 4rem;
 }
 
 .main-text h4 {
     position: relative;
-    top: 4rem;
+    top: 7rem;
     left: 3rem;
+}
+
+.work-section img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.work-section {
+    margin: 2rem 0;
+}
+
+footer {
+    font-weight: 600;
+}
+
+.work-section h2 {
+    margin-bottom: 4rem;
+}
+.work-section h4 {
+    margin: 1rem 0;
+}
+
+.main img {
+    height: 500px;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.name1 {
+    color: #3d5a80;
+}
+
+.list-item:hover {
+    color:#ee6c4d;
+    border-radius: 3px;
+    border-bottom: 3px solid #3d405b;
+}
+
+.name4 {
+    color: #ee6c4d;
+}
+
+.name5 {
+    color: #293241;
 }
